@@ -5,7 +5,7 @@ import express, { Request, Response } from "express";
 const app = express();
 app.use(cors());
 
-const ESP32_IP = "http://192.168.1.65"; // ⬅️ Replace with your ESP32's IP address
+const ESP32_IP = "http://192.168.1.65";
 
 interface LedParams {
   state: string;
